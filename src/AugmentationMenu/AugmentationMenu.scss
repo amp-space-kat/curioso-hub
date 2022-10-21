@@ -1,0 +1,17 @@
+.augmentation-menu {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+    .aug-scroll {
+        position: absolute;
+        background-image: url(../assets/aug_scroll.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 77px;
+        width: 158px;
+        top: 70%;
+        left: 35%;
+    }
+}

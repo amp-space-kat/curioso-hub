@@ -1,0 +1,97 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-height: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    position: relative;
+
+    .close-new-photo {
+        position: absolute;
+        background-image: url(../assets/exit_icon.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 80px;
+        width: 80px;
+        top: 10%;
+        right: 8%;
+        z-index: 1;
+
+        &.isHidden {
+            visibility: hidden;
+        }
+    }
+
+    &.growlz {
+        background-image: url(../assets/Growlz_Background.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+    &.rocky {
+        background-image: url(../assets/Rocky_Background.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+
+    &.wingrat {
+        background-image: url(../assets/Wingrat_Background.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+
+    &.mathMeld {
+        background-image: url(../assets/MathMeld_Dreamspace_Background.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+
+    &.patternPredictor {
+        background-image: url(../assets/PatternPredictor_Dreamspace_Background.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+
+    &.modelMaker {
+        background-image: url(../assets/ModelMaker_Dreamspace_Background.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+
+    &.precisionVision {
+        background-image: url(../assets/PrecisionVision_Dreamspace_Background.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+
+    &.squadSummon {
+        background-image: url(../assets/SquadSummon_Dreamspace_Background.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+
+    &.structureSeer {
+        background-image: url(../assets/StructureSeer_Dreamspace_Background.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+
+
+    &.outerSpace {
+        background-image: url(../assets/OuterSpace_Background.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+}

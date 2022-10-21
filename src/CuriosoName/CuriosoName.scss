@@ -1,0 +1,27 @@
+.curioso-name {
+    // margin-top: 25px;
+    // margin-bottom: 120px;
+    &.growlz {
+        background-image: url(../assets/icon_nametagG.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 83px;
+        width: 343px;
+    }
+    
+    &.rocky {
+        background-image: url(../assets/icon_nametagR.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 83px;
+        width: 343px;
+    }
+    
+    &.wingrat {
+        background-image: url(../assets/icon_nametagW.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 83px;
+        width: 343px;
+    }
+}

@@ -1,0 +1,92 @@
+.photo-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-image: url(../assets/photo_large_background.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.photo-large {
+    height: 472px;
+    width: 647px;
+    position: absolute;
+    z-index: 1;
+    background-image: url(../assets/photo_large.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .new-photo {
+        z-index: 2;
+    }
+
+    img {
+        height: 300px;
+        width: 515px;
+        position: absolute;
+        top: 11%;
+        right: 10%;
+    }
+}
+
+.share-anim {
+    height: 472px;
+    width: 647px;
+    position: absolute;
+    z-index: 1;
+}
+
+.close-photo-button {
+    position: absolute;
+    z-index: 2;
+    background-image: url(../assets/close_photo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40px;
+    width: 40px;
+    top: 3%;
+    right: 7%;
+}
+
+.icon-share {
+    position: absolute;
+    z-index: 2;
+    background-image: url(../assets/icon_share.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 85px;
+    width: 218px;
+    top: 17%;
+    right: -16%;
+}
+
+.icon-delete {
+    position: absolute;
+    z-index: 2;
+    background-image: url(../assets/icon_delete.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 85px;
+    width: 218px;
+    top: 35%;
+    right: -16%;
+}
+
+.photo-caption {
+    position: absolute;
+    z-index: 2;
+    top: 80%;
+    left: 10%;
+}
+
+.photo-date {
+    position: absolute;
+    z-index: 2;
+    top: 80%;
+    right: 10%;
+}

@@ -1,0 +1,192 @@
+.assets-sub-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    z-index: 1;
+    margin-left: 2vw;
+    // background-color: rgb(250, 200, 225);
+
+    &.hide-sub-nav {
+        display: none;
+    }
+
+    &.snacks {
+        // background-image: url(../assets/snacks_dd_1.svg), url(../assets/snacks_dd_2.svg);
+        // background-color: rgb(250, 200, 225);
+        background-repeat: no-repeat;
+        background-position: center;
+        // min-height: 100%;
+        position: relative;
+        // top: 500px;
+        // background-color: rgb(250, 200, 225);
+
+    }
+
+    .food_salad {
+        background-image: url(../assets/salad.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 90px;
+        width: 146px;
+        // position: absolute;
+    }
+    
+    .food_steak {
+        background-image: url(../assets/steak.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 116px;
+    }
+    
+    .food_fruit {
+        background-image: url(../assets/fruit.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 97px;
+    }
+    
+    .food_cookie {
+        background-image: url(../assets/cookie.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 100px;
+    }
+    
+    .food_bubble_tea {
+        background-image: url(../assets/bubble_tea.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 131px;
+        width: 95px;
+    }
+    
+    .food_cup {
+        background-image: url(../assets/cup.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 145px;
+    }
+
+    .lock {
+        background-image: url(../assets/lock.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 66px;
+    }
+
+    .up {
+        background-image: url(../assets/scroll_up.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 46px;
+        width: 46px;
+    }
+    
+    .down {
+        background-image: url(../assets/scroll_down.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 46px;
+        width: 46px;
+    }
+
+    &.growlz {
+        .pose-1_active {
+            background-image: url(../assets/pose1_g_active.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 98px;
+        }
+
+        .pose-1 {
+            background-image: url(../assets/pose1_g_inactive.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 98px;
+        }
+
+        .pose-2_active {
+            background-image: url(../assets/pose2_g_active.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 98px;
+        } 
+
+        .pose-2 {
+            background-image: url(../assets/pose2_g_inactive.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 98px;
+        }  
+    }
+
+    &.rocky {
+        .pose-1_active {
+            background-image: url(../assets/pose1_r.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 100px;
+        }
+
+        .pose-1 {
+            background-image: url(../assets/pose1_r_inactive.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 100px;
+        }
+
+        .pose-2_active {
+            background-image: url(../assets/pose2_r_active.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 103px;
+        } 
+
+        .pose-2 {
+            background-image: url(../assets/pose2_r.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 103px;
+        } 
+    }
+
+    &.wingrat {
+        .pose-1_active {
+            background-image: url(../assets/pose1_w.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 83px;
+        }
+
+        .pose-1 {
+            background-image: url(../assets/pose1_w_inactive.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 83px;
+        }
+
+        .pose-2_active {
+            background-image: url(../assets/pose2_w_active.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 86px;
+        }
+
+        .pose-2 {
+            background-image: url(../assets/pose2_w.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 86px;
+        } 
+    }
+    
+}

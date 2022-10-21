@@ -1,0 +1,21 @@
+.page-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 487px;
+    margin-right: 60px;
+}
+
+.page-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 487px;
+    margin-left: 60px;
+}

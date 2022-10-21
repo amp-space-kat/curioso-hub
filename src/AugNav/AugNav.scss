@@ -1,0 +1,50 @@
+.aug-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .back {
+        background-image: url(../assets/back.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 80px;
+        width: 82px;
+    }
+
+    .body {
+        background-image: url(../assets/body.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 80px;
+        width: 82px;
+    }
+
+    .face {
+        background-image: url(../assets/face.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 80px;
+        width: 82px;
+    }
+
+    .head {
+        background-image: url(../assets/head.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 80px;
+        width: 82px;
+    }
+
+    .legs {
+        background-image: url(../assets/legs.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 80px;
+        width: 82px;
+    }
+}

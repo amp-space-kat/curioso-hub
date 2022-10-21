@@ -1,0 +1,8 @@
+.photo-item {
+    background-image: url(../assets/Photo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 173px;
+    width: 216px;
+    margin-bottom: 15px;
+}
